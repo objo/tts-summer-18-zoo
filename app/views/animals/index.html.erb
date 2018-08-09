@@ -1,0 +1,9 @@
+<h1>Animals</h1>
+
+<ul>
+  <% @animals.each do |animal| %>
+    <% unless animal == "Spider" %>
+      <li><%= animal %></li>
+    <% end %>
+  <% end %>
+</ul>
